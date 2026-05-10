@@ -1,0 +1,8 @@
+{
+  "screen.adaptivemusic.config": "Adaptive Music Config",
+  "screen.adaptivemusic.subtitle": "Map moods to vanilla or modded sound event IDs.",
+  "option.adaptivemusic.enabled.on": "Enabled: ON",
+  "option.adaptivemusic.enabled.off": "Enabled: OFF",
+  "option.adaptivemusic.debug.on": "Debug Toasts: ON",
+  "option.adaptivemusic.debug.off": "Debug Toasts: OFF"
+}
