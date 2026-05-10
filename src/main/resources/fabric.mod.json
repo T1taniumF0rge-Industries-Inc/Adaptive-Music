@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "adaptivemusic",
+  "version": "${version}",
+  "name": "Adaptive Music",
+  "description": "A barebone emotional-memory music director that reacts to spawn nostalgia, danger, deaths, home, player joins, and more.",
+  "authors": ["Adaptive Music contributors"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.titan1um.adaptivemusic.AdaptiveMusic"
+    ],
+    "client": [
+      "com.titan1um.adaptivemusic.client.AdaptiveMusicClient"
+    ],
+    "modmenu": [
+      "com.titan1um.adaptivemusic.client.modmenu.AdaptiveMusicModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": ">=11.0.0"
+  }
+}
